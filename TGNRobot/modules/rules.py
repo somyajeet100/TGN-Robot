@@ -118,18 +118,18 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
- ❍ /rules*:* get the rules for this chat.
+ ❍ /Heroxrule*:* get the rules for this chat.
 
 *Admins only:*
- ❍ /setrules <your rules here>*:* set the rules for this chat.
- ❍ /clearrules*:* clear the rules for this chat.
+ ❍ /setheroxrule <your rules here>*:* set the rules for this chat.
+ ❍ /clearheroxrule*:* clear the rules for this chat.
 """
 
 __mod_name__ = "Rules"
 
-GET_RULES_HANDLER = CommandHandler("rules", get_rules, filters=Filters.group)
-SET_RULES_HANDLER = CommandHandler("setrules", set_rules, filters=Filters.group)
-RESET_RULES_HANDLER = CommandHandler("clearrules", clear_rules, filters=Filters.group)
+GET_RULES_HANDLER = CommandHandler("heroxrule", get_rules, filters=Filters.group)
+SET_RULES_HANDLER = CommandHandler("setheroxrule", set_rules, filters=Filters.group)
+RESET_RULES_HANDLER = CommandHandler("clearheroxrule", clear_rules, filters=Filters.group)
 
 dispatcher.add_handler(GET_RULES_HANDLER)
 dispatcher.add_handler(SET_RULES_HANDLER)
