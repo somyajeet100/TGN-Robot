@@ -16,6 +16,7 @@ TRUTH = (
     "When’s the last time you lied to your parents and why?",
     "Have you ever lied about your age to participate in a contest?",
     "Have you ever been caught checking someone out?",
+    "Do you know herox ?",
   
 )
 
@@ -70,4 +71,10 @@ DARE = (
     "Send a screenshot of your gallery.",
     "Set your crush’s picture as your dp.",
     "Suggest me more dares.",
+    "Kiss @Herox_xD.",
+    "If u are girl then kiss @Herox_xd if boy fuc* off.",
+    "Say 5 times #HEROX_OP .",
+    "Spam 50 time > @Herox_xd op bro op .",
+    "Dm at @Hero_x_bot.",
+    "If you are girl then say To @Herox_xd I Love you baby at dm.",
 )
